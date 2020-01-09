@@ -1,5 +1,3 @@
-[toc]
-
 ## 介绍
 
 Solidoc-Logger是一款基于 [bunyan](https://github.com/trentm/node-bunyan)实现的node.js日志模块，支持两种：控制台 和 日志文件 两个种输出格式。其具有一下特性：
@@ -147,12 +145,13 @@ interface FileStoreOption {
 
 ```
 
->  `period`：`<number><scope>`  i.e:  1h ,1d ,1w ,1m ,1y 
->>  h   hours (at the start of the hour)
->>  d   days (at the start of the day, i.e. just after midnight)
->>  w   weeks (at the start of Sunday)
->>  m   months (on the first of the month)
->>  y   years (at the start of Jan 1st)
+>  `period`：`<number><scope>`  i.e:  `1h` ,`1d` ,`1w` ,`1m` ,`1y` 
+> 
+> `h`   hours (at the start of the hour)
+> `d`   days (at the start of the day, i.e. just after midnight)
+> `w`   weeks (at the start of Sunday)
+> `m`   months (on the first of the month)
+> `y`   years (at the start of Jan 1st)
               
               
          
