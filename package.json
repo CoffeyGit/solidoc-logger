@@ -1,6 +1,6 @@
 {
   "name": "solidoc-logger-tool",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "solidoc project logger tool",
   "main": "./dist/index.js",
   "type": "./dist/index.d.ts",
@@ -14,8 +14,8 @@
   ],
   "homepage": "https://github.com/CoffeyGit/solidoc-logger.git",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/CoffeyGit/solidoc-logger.git"
+    "type": "git",
+    "url": "https://github.com/CoffeyGit/solidoc-logger.git"
   },
   "author": "coffey",
   "license": "ISC",
