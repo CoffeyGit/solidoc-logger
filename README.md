@@ -1,10 +1,10 @@
 ## 介绍
 
-Solidoc-Logger是一款基于 [bunyan](https://github.com/trentm/node-bunyan)实现的node.js日志模块，支持两种：控制台 和 日志文件 两个种输出格式。其具有一下特性：
+Solidoc-Logger是一款基于 [bunyan](https://github.com/trentm/node-bunyan)实现的node.js日志模块，支持 控制台 和 日志文件 两个种输出格式。其具有以下特性：
 
 * 多Level级别控制
 * Topic设置
-* 日志文件滚动自动滚动：
+* 日志文件自动滚动：
     * 日志分割周期：小时，天，周，月等
     * 日志保留最大数量
 * 自动记录日志打印触发位置（文件，方法，行）
@@ -83,9 +83,9 @@ logger-test.ts:7): this is a debug msg { temperature: 80, status: { started: 'ye
 ```
 let log = new SolidocLogger(
     topic: <string>,  // 可选，默认: def-topic
-    level: <level name or number>, //可选, 见后面"Levels"部分说明
-    consoleShow: <boolean>,    // 可选, 是否在控制台输出，默认输出
-    fileStore: <FileStoreOption> // 可选，配置日志文件想关信息，讲后面FileStoreOption部分说明 
+    level: <level name or number>, //可选, 见后面"Levels"部分说明,默认INFO
+    consoleShow: <boolean>,    // 可选, 是否在控制台输出，默认true
+    fileStore: <FileStoreOption> // 可选，配置日志文件想关信息，讲后面FileStoreOption部分说明 .默认关闭文件输出
   )
 
 ```
