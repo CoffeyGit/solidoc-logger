@@ -12,6 +12,11 @@
     "solidoc",
     "logger"
   ],
+  "homepage": "https://github.com/CoffeyGit/solidoc-logger.git",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/CoffeyGit/solidoc-logger.git"
+  },
   "author": "coffey",
   "license": "ISC",
   "devDependencies": {
