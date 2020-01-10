@@ -1,4 +1,4 @@
-import bunyan from 'bunyan';
+import Logger from 'bunyan';
 import { FileStoreOption } from './solidoc-option';
 /**
  * @Author: Coffey
@@ -11,7 +11,7 @@ import { FileStoreOption } from './solidoc-option';
  * @param fileStore {FileStoreOption}  是否需要同时输出到日志文件中，默认不输出，如需要输出需要配置输出配置
  *
  */
-export declare class SolidocLogger extends bunyan {
+export declare class SolidocLogger extends Logger {
     topic: string;
     constructor(topic?: string, level?: number, consoleShow?: boolean, fileStore?: FileStoreOption);
 }

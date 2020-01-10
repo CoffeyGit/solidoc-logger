@@ -1,4 +1,12 @@
-import bunyan from 'bunyan'
+/*
+ * @Author: your name
+ * @Date: 2020-01-09 15:34:29
+ * @LastEditTime : 2020-01-10 19:46:15
+ * @LastEditors  : Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /solidoc-logger/lib/solidoc-logger.ts
+ */
+import Logger from 'bunyan'
 import { FileStoreOption } from './solidoc-option'
 const logFormat = require('bunyan-format')
 
@@ -13,10 +21,10 @@ const logFormat = require('bunyan-format')
  * @param fileStore {FileStoreOption}  是否需要同时输出到日志文件中，默认不输出，如需要输出需要配置输出配置
  *
  */
-export class SolidocLogger extends bunyan {
+export class SolidocLogger extends Logger {
      topic: string
 
-     constructor(topic: string = 'def-topic', level: number = bunyan.INFO, consoleShow: boolean = true, fileStore?:
+     constructor(topic: string = 'def-topic', level: number = Logger.INFO, consoleShow: boolean = true, fileStore?:
           FileStoreOption) {
           let streams = Array()
 
@@ -39,7 +47,7 @@ export class SolidocLogger extends bunyan {
 
                let fileStreamOption = { ...outStream, ...fileStore }
 
-               let stream = new bunyan.RotatingFileStream(fileStreamOption)
+               let stream = new Logger.RotatingFileStream(fileStreamOption)
 
                let fileOutStream = logFormat({ outputMode: 'long', color: true }, stream)
                streams.push({

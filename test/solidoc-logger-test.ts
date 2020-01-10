@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2020-01-09 14:28:57
+ * @LastEditTime : 2020-01-10 19:43:55
+ * @LastEditors  : Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /solidoc-logger/test/solidoc-logger-test.ts
+ */
 
 import { SolidocLogger } from '../index'
 

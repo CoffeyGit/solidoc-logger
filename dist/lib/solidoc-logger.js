@@ -27,6 +27,14 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+/*
+ * @Author: your name
+ * @Date: 2020-01-09 15:34:29
+ * @LastEditTime : 2020-01-10 19:46:15
+ * @LastEditors  : Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /solidoc-logger/lib/solidoc-logger.ts
+ */
 var bunyan_1 = __importDefault(require("bunyan"));
 var logFormat = require('bunyan-format');
 /**
