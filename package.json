@@ -1,6 +1,6 @@
 {
   "name": "solidoc-logger-tool",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "solidoc project logger tool",
   "main": "./dist/index.js",
   "type": "./dist/index.d.ts",
