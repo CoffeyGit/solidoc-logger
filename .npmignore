@@ -1,3 +1,4 @@
 # 排除 lib文件
 lib/
 test/
+node_modules/
