@@ -3,6 +3,8 @@ import bunyan = require('bunyan')
 import { FileStoreOption } from './solidoc-option'
 const logFormat = require('bunyan-format')
 
+
+
 /** 
  * @Author: Coffey
  * @Date: 2020-01-06 17:44:36

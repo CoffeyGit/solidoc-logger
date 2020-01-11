@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-01-09 14:28:57
- * @LastEditTime : 2020-01-11 15:56:27
+ * @LastEditTime : 2020-01-11 18:10:14
  * @LastEditors  : Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /solidoc-logger/test/solidoc-logger-test.ts
@@ -41,5 +41,4 @@ log3.debug('this is a debug msg', { temperature: 80, status: { started: 'yes', o
 log4.warn('this is a warn msg', { temperature: 120 })
 log5.fatal('this is a fatal msg')
 log.error('this is a error msg', new Error('temperature: 200'))
-
 
