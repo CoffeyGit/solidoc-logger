@@ -1,5 +1,5 @@
 //import bunyan from 'bunyan'
-const bunyan = require('bunyan')
+import bunyan from 'bunyan'
 import { FileStoreOption } from './solidoc-option'
 const logFormat = require('bunyan-format')
 

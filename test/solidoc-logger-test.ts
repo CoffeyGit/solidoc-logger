@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-01-09 14:28:57
- * @LastEditTime : 2020-01-11 15:07:46
+ * @LastEditTime : 2020-01-11 15:56:27
  * @LastEditors  : Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /solidoc-logger/test/solidoc-logger-test.ts
