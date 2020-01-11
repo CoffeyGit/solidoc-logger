@@ -20,11 +20,13 @@
   "author": "coffey",
   "license": "ISC",
   "devDependencies": {
-    "typescript": "^3.7.4",
+    "typescript": "^3.7.4"
+    
+  },
+  "dependencies": {
     "@types/bunyan": "^1.8.6",
     "@types/bunyan-format": "^0.2.3",
     "bunyan": "^1.8.12",
     "bunyan-format": "^0.2.1"
-  },
-  "dependencies": {}
+  }
 }
